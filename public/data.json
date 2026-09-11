@@ -70,5 +70,23 @@
     "battingStyle": "Right-Handed",
     "bowlingStyle": "Right-Arm Off Break",
     "price": 9000000
+  },
+  {
+    "playerName": "Travis Head",
+    "playerImg": "https://example.com/travis-head.jpg",
+    "origin": "Australia",
+    "playerType": "Batsman",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 10000000
+  },
+  {
+    "playerName": "Mohammad Rizwan",
+    "playerImg": "https://example.com/mohammad-rizwan.jpg",
+    "origin": "Pakistan",
+    "playerType": "Wicketkeeper-Batsman",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": 8000000
   }
 ]
