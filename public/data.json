@@ -1,0 +1,74 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://example.com/shakib.jpg",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Orthodox",
+    "price": 9500000
+  },
+  {
+    "playerName": "Virat Kohli",
+    "playerImg": "https://example.com/virat.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": 12000000
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerImg": "https://example.com/babar.jpg",
+    "origin": "Pakistan",
+    "playerType": "Batsman",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 11000000
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerImg": "https://example.com/bumrah.jpg",
+    "origin": "India",
+    "playerType": "Bowler",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 10000000
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerImg": "https://example.com/rashid.jpg",
+    "origin": "Afghanistan",
+    "playerType": "Bowler",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Leg Break",
+    "price": 9000000
+  },
+  {
+    "playerName": "Joe Root",
+    "playerImg": "https://example.com/root.jpg",
+    "origin": "England",
+    "playerType": "Batsman",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 8500000
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerImg": "https://example.com/stokes.jpg",
+    "origin": "England",
+    "playerType": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Fast Medium",
+    "price": 10500000
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerImg": "https://example.com/williamson.jpg",
+    "origin": "New Zealand",
+    "playerType": "Batsman",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 9000000
+  }
+]
