@@ -1,7 +1,7 @@
 [
   {
     "playerName": "Shakib Al Hasan",
-    "playerImg": "https://example.com/shakib.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "Bangladesh",
     "playerType": "All-Rounder",
     "battingStyle": "Left-Handed",
@@ -10,7 +10,7 @@
   },
   {
     "playerName": "Virat Kohli",
-    "playerImg": "https://example.com/virat.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "India",
     "playerType": "Batsman",
     "battingStyle": "Right-Handed",
@@ -19,7 +19,7 @@
   },
   {
     "playerName": "Babar Azam",
-    "playerImg": "https://example.com/babar.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "Pakistan",
     "playerType": "Batsman",
     "battingStyle": "Right-Handed",
@@ -28,7 +28,7 @@
   },
   {
     "playerName": "Jasprit Bumrah",
-    "playerImg": "https://example.com/bumrah.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "India",
     "playerType": "Bowler",
     "battingStyle": "Right-Handed",
@@ -37,7 +37,7 @@
   },
   {
     "playerName": "Rashid Khan",
-    "playerImg": "https://example.com/rashid.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "Afghanistan",
     "playerType": "Bowler",
     "battingStyle": "Right-Handed",
@@ -46,7 +46,7 @@
   },
   {
     "playerName": "Joe Root",
-    "playerImg": "https://example.com/root.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "England",
     "playerType": "Batsman",
     "battingStyle": "Right-Handed",
@@ -55,7 +55,7 @@
   },
   {
     "playerName": "Ben Stokes",
-    "playerImg": "https://example.com/stokes.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "England",
     "playerType": "All-Rounder",
     "battingStyle": "Left-Handed",
@@ -64,7 +64,7 @@
   },
   {
     "playerName": "Kane Williamson",
-    "playerImg": "https://example.com/williamson.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "New Zealand",
     "playerType": "Batsman",
     "battingStyle": "Right-Handed",
@@ -73,7 +73,7 @@
   },
   {
     "playerName": "Travis Head",
-    "playerImg": "https://example.com/travis-head.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "Australia",
     "playerType": "Batsman",
     "battingStyle": "Left-Handed",
@@ -82,7 +82,7 @@
   },
   {
     "playerName": "Mohammad Rizwan",
-    "playerImg": "https://example.com/mohammad-rizwan.jpg",
+    "playerImg": "https://i.pinimg.com/474x/e8/10/c7/e810c7c57daf2358290100c7b986e6dd.jpg",
     "origin": "Pakistan",
     "playerType": "Wicketkeeper-Batsman",
     "battingStyle": "Right-Handed",

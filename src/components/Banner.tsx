@@ -2,7 +2,7 @@ import bannerImage from "../assets/banner-main.png";
 
 const Banner = () => {
   return (
-    <div className="max-w-11/12 mx-auto bg-black p-8 rounded-3xl text-white mt-7">
+    <div className="max-w-11/12 mx-auto bg-black p-8 rounded-3xl text-white my-7">
       <img src={bannerImage} alt="" />
 
       <h2 className="font-bold text-4xl">
