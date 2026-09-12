@@ -1,7 +1,40 @@
+import { useState, type Dispatch, type SetStateAction } from "react";
 import type { Iplayer } from "../../types/player";
 import { FaFlag, FaUser } from "react-icons/fa";
+import { toast } from "react-toastify";
 
-const PlayerCard = ({ player }: { player: Iplayer }) => {
+interface IPlayerCardProps {
+  player: Iplayer;
+  coin: number;
+  setCoin: Dispatch<SetStateAction<number>>;
+  selectedPlayers: Iplayer[];
+  setSelectedPlayers: Dispatch<SetStateAction<Iplayer[]>>;
+}
+
+const PlayerCard = ({
+  player,
+  coin,
+  setCoin,
+  selectedPlayers,
+  setSelectedPlayers,
+}: IPlayerCardProps) => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelectPlayer = () => {
+    setIsSelected(true);
+
+    const newCoinPrice = coin - player.price;
+
+    if (newCoinPrice >= 0) {
+      setCoin(newCoinPrice);
+      toast.success(`${player.playerName} is purchase successfully`);
+    } else {
+      toast.warning("Coin is not enough to purchase");
+    }
+    // Selected players logic
+    setSelectedPlayers([...selectedPlayers, player]);
+  };
+
   return (
     <div className="group overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       {/* Player Image */}
@@ -56,13 +89,19 @@ const PlayerCard = ({ player }: { player: Iplayer }) => {
 
         {/* Price & Button */}
         <div className="mt-2 flex items-center justify-between gap-3">
-          <div>
-            <p className="text-xs text-base-content/60">Price</p>
+          <div className="flex items-center">
+            <p className="text-xl font-bold text-base-content/60">Price:</p>
             <p className="text-xl font-bold text-primary">${player.price}</p>
           </div>
 
-          <button className="btn btn-primary rounded-xl px-5">
-            Choose Player
+          <button
+            onClick={() => handleSelectPlayer()}
+            className="btn btn-primary rounded-xl px-5"
+            disabled={isSelected === true ? true : false}
+            // disabled={isSelected ? true : false}
+            // disabled={isSelected}
+          >
+            {isSelected === true ? "Selected" : "Choose Player"}
           </button>
         </div>
       </div>
