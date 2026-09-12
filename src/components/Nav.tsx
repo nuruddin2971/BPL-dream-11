@@ -1,6 +1,5 @@
 import { BiSolidDollarCircle } from "react-icons/bi";
 import Logo from "../assets/logo.png";
-import { useState } from "react";
 
 const Nav = ({ coin }: { coin: number }) => {
   return (
